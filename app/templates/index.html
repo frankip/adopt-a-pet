@@ -1,6 +1,5 @@
 {% extends 'base.html' %}
 
-
 {% block styles%}
     {{ super() }}
     <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
@@ -28,6 +27,12 @@
       </p>
 
       <h3>{{name}}</h3>
+
+      <form method="POST" action="/">
+        {{ form.csrf_token }}
+        {{ form.text.label }} {{ form.text(size=20)}}
+        <input type="submit" value="Go">
+      </form>
     </main>
     <div class="row">
       {% for pet in pets %}
