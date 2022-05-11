@@ -85,8 +85,8 @@ A flask application where you can search for pets and adopt them
 
 ### Built With
 
-* [Django](https://nextjs.org/)
-* [Python](https://reactjs.org/)
+* [FLask](https://flask.palletsprojects.com/en/2.1.x/)
+* [Python](https://www.python.org/download/releases/3.0/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
